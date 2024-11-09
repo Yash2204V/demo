@@ -6,15 +6,9 @@
             "use": "@vercel/node"
         }
     ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/app.js"
-        }
-    ],
     "headers": [
         {
-            "src": "/(.*)",
+            "source": "/(.*)",
             "headers": [
                 {
                     "key": "Content-Security-Policy",
