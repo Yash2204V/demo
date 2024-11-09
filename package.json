@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
     "scripts": {
-      "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-      "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+      "dev": "npx tailwindcss -i ./src/input.css -o ./public/stylesheets/output.css --watch",
+      "build": "npx tailwindcss -i ./src/input.css -o ./public/stylesheets/output.css",
       "start": "npm run build && node app.js",
-      "vercel-build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
+      "vercel-build": "npx tailwindcss -i ./src/input.css -o ./public/stylesheets/output.css"
     },
   "keywords": [],
   "author": "",
